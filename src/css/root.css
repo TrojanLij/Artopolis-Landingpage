@@ -8,9 +8,9 @@
 /*-- HEADER --*/
 .container-header {
     margin: 0px;
-    padding: 5%;
-
-    border: 1px solid red;
+    padding: 0;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 
 /*-- HEADER - Artopolis Logo --*/
@@ -31,12 +31,11 @@
     text-align: center;
     margin: 0px;
     padding: 0px;
-
-    border: 1px solid green;
 }
 
 .slogan-h2 {
     font-family: 'hind_semiboldregular';
+    font-size: 300%;
 
     text-decoration: none;
     text-transform: uppercase;
@@ -48,17 +47,18 @@
 body {
     font-family: 'hind_lightregular';
 
-
     width: 100vw;
     height: 100vh;
     margin: 0px;
     padding: 0px;
     background-color: var(--main-background-color_div1);
-    border: 1px solid red;
 }
 
 .container-body {
-    border: 1px solid blue;
+    margin: 0px;
+    padding: 0;
+    padding-top: 2%;
+    padding-bottom: 2%;
 }
 
 .container-body-text {
@@ -66,14 +66,17 @@ body {
 }
 
 .body-text-h3 {
+    font-family: 'hind_lightregular';
+    font-size: 250%;
     color: var(--main-text-color);
 }
 
 .container-soon {
     margin: 0px;
-    padding: 5%;
+    padding: 0;
+    padding-top: 3%;
+    padding-bottom: 3%;
     text-align: center;
-    border: 1px solid black;
 }
 
 .soon-h1 {
@@ -81,4 +84,19 @@ body {
     color: var(--main-text-color);
     font-family: 'hindbold';
     text-transform: uppercase;
+}
+
+/*-- BODY - dev --*/
+.container-in-dev{
+    margin: 0px;
+    padding: 0;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    text-align: center;
+}
+.dev-h3{
+    font-size: 250%;
+    color: var(--main-text-color);
+    font-family: 'hind_lightregular';
+    text-transform: none;
 }
